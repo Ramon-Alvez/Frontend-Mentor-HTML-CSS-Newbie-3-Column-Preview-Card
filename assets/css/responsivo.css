@@ -1,0 +1,25 @@
+@media (max-width: 835px){
+    .card
+    {
+        flex-direction: column;
+    }
+
+    .content
+    {
+        height: fit-content;
+    }
+
+    .button
+    {
+        margin-top: 40px;
+    }
+    
+    .bgSedans
+    {
+        border-radius: 10px 10px 0 0;
+    }
+    .bgLuxury
+    {
+        border-radius: 0 0 10px 10px;
+    }
+}

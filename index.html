@@ -1,36 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Mentor 3-column preview card solution: Explore a responsive and accessible design for showcasing product information with this design solution.">
+  <meta name="keywords" content="Frontend Mentor, Frontend web development, html, css, card component, preview card, challenge, responsive preview card design, card design, product card, responsive layout, accessible">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsivo.css">
+
 </head>
+
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <main class="card">
+    <section class="section">
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
+      <article class="content bgSedans">
+        <header>
+          <img src="assets/images/icon-sedans.svg" alt="Sedans section icon">
 
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <h2 class="section-title">Sedans</h2>
+        </header>
+
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+          or on your next road trip.
+        </p>
+
+        <a class="button sedansButton" title="Learn more about Sedans"
+        href="#" aria-label="Sedan cars info">Learn More</a>
+
+      </article>
+    </section>
+
+    <section class="section bgSuvs">
+
+      <article class="content">
+        <header>
+          <img src="assets/images/icon-suvs.svg" alt="SUVs section icon">
+
+          <h2 class="section-title">SUVs</h2>
+        </header>
+
+        <p>
+          Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+          and off-road adventures.
+        </p>
+
+        <a class="button suvsButton" title="Learn more about SUVs"
+        href="#" aria-label="SUV cars info">Learn More</a>
+
+      </article>
+    </section>
+
+    <section class="section bgLuxury">
+
+      <article class="content">
+        <header>
+          <img src="assets/images/icon-luxury.svg" alt="Luxury section icon">
+
+          <h2 class="section-title">Luxury</h2>
+        </header>
+
+        <p>
+          Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+          rental and arrive in style.
+        </p>
+
+        <a class="button luxuryButton" title="Learn more about Luxury cars"
+        href="#" aria-label="Luxury cars infos">Learn More</a>
+
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      <p>
+        Challenge by 
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" 
+            title="Visit Frontend Mentor challenge page" aria-label="Visit Frontend Mentor challenge page">Frontend Mentor</a>.
+
+        Coded by 
+          <a href="https://www.linkedin.com/in/ramon-alvez/"     
+            title="Visit my linkedIn" aria-label="Ramon Alves's LinkedIn profile">Ramon Alves</a>.
+      </p>
+    </div>
+  </footer>
 </body>
+
 </html>
