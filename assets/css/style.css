@@ -20,7 +20,6 @@ body{
     height: 500px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 60px;
 
     color: var(--FontColor);
